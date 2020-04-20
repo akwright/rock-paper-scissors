@@ -1,8 +1,12 @@
+:root {
+    --body-bg-gradient: radial-gradient(hsl(214,47%,23%), hsl(237,49%,15%));
+}
+
 html {
     font-family: 'Barlow Semi Condensed', sans-serif;
     height: 100vh;
 }
 
 body {
-    background-image: radial-gradient(hsl(214,47%,23%), hsl(237,49%,15%));
+    background-image: var(--body-bg-gradient);
 }
